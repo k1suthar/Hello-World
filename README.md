@@ -20,7 +20,7 @@
           gg = randint(0, 255)
           bb = randint(0, 255)
           turtle.stamp()
-    #      turtle.colormode(255)
+    #      turtle.colormode(255) --> There is no such command even though we are dealing with turtle line and not screen lines
           screen.colormode(255)
           turtle.pencolor((rr,gg,bb))
           screen.bgcolor((randint(0,255), randint(0,255), randint(0,255)))
