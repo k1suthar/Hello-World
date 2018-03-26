@@ -21,7 +21,7 @@
           bb = randint(0, 255)
           turtle.stamp()
     #      turtle.colormode(255) --> There is no such command even though we are dealing with turtle line and not screen lines
-          screen.colormode(255)
+          screen.colormode(255) # there are only two modes 0 or 255, 0 will take string input and 255 will allow R,G,and B form of number input
           turtle.pencolor((rr,gg,bb))
           screen.bgcolor((randint(0,255), randint(0,255), randint(0,255)))
     #      screen.bgcolor("pink")
